@@ -4,6 +4,7 @@ import { GiMeditation } from "react-icons/gi";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,8 @@ const Navbar = () => {
     <nav className="p-4 md:px-8 sticky top-0 z-50 border border-b-2 bg-white">
       <div className=" mx-auto flex justify-between items-center">
         <div className="flex items-center hover:text-primary">
-          <GiMeditation className="h-8 w-8" />
+          {/* <GiMeditation className="h-8 w-8" /> */}
+          <Image src="/hero-logo.webp" width={30} height={30} />
           <Link href="/" passHref>
             <div className="font-bold ml-1 text-xl cursor-pointer">
               SimpleYOGA
