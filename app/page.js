@@ -1,16 +1,18 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Why from "@/components/Why";
-import Uses from "@/components/Uses";
+import About from "@/components/About";
+import Services from "@/components/Services";
 import Membership from "@/components/Membership";
+import Trainers from "@/components/Trainers";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Why />
-      <Uses />
+      <About />
+      <Services />
       <Membership />
+      <Trainers />
     </>
   );
 }

@@ -7,9 +7,12 @@ export default function Hero() {
     <div className="p-4 md:px-12 my-16 md:my-10">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col justify-center items-center md:items-start space-y-6 text-center md:text-left mb-8 md:mb-0 mt-8 md:mt-0">
-          <h1 className="text-4xl md:text-6xl font-medium">Simple YOGA</h1>
-          <h4 className="text-lg md:text-2xl text-muted-foreground">
-            Transform your life through the power of yoga.
+          <h1 className="text-4xl md:text-6xl font-medium">
+            Aadhyantha Studio
+          </h1>
+          <h4 className="text-lg md:text-xl text-muted-foreground">
+            Join us for yoga, meditation, ayurveda, and more at our calming
+            heaven.
           </h4>
           <Button size="lg">JOIN NOW</Button>
         </div>

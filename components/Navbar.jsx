@@ -4,85 +4,51 @@ import { GiMeditation } from "react-icons/gi";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
-import Image from "next/image";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Nav = () => {
+  const links = [
+    { name: "Home", link: "/" },
+    { name: "About", link: "/" },
+    { name: "Pricing", link: "/" },
+    { name: "Contact", link: "/" },
+  ];
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
+  const [open, setOpen] = useState(false);
 
   return (
     <nav className="p-4 md:px-8 sticky top-0 z-50 border border-b-2 bg-white">
-      <div className=" mx-auto flex justify-between items-center">
-        <div className="flex items-center hover:text-primary">
-          {/* <GiMeditation className="h-8 w-8" /> */}
-          <Image src="/hero-logo.webp" width={30} height={30} />
-          <Link href="/" passHref>
-            <div className="font-bold ml-1 text-xl cursor-pointer">
-              SimpleYOGA
-            </div>
-          </Link>
+      <div className="mx-auto flex items-center justify-between">
+        <div className="flex items-center hover:text-primary font-bold ml-1 text-2xl cursor-pointer">
+          <GiMeditation className="h-8 w-8" />
+          {/* <Image src="/hero-logo.webp" width={30} height={30} /> */}
+          <Link href="/">Aadhyantha Studio</Link>
         </div>
-        <div className="hidden md:block">
-          <ul className="flex space-x-6">
-            <li className="font-meduim hover:text-primary">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="font-meduim hover:text-primary">
-              <Link href="#why">Why Yoga</Link>
-            </li>
-            <li className="font-meduim hover:text-primary">
-              <Link href="#membership">Membership</Link>
-            </li>
-            <li className="font-meduim hover:text-primary">
-              <Link href="#about">About</Link>
-            </li>
-            <li className="font-meduim hover:text-primary">
-              <Link href="#contact">Contact</Link>
-            </li>
-          </ul>
+        <div
+          className="cursor-pointer md:hidden"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
-        <div className="md:hidden">
-          <button onClick={toggleNavbar} className="">
-            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
-          </button>
-        </div>
+
+        <ul
+          className={`md:flex md:items-center absolute md:static space-y-6 md:space-y-0 space-x-0 md:space-x-6 md:pl-0 pl-8 bg-white md:z-auto z-[-1] left-0 w-full md:w-auto transition-all duration-500 ease-in border-b-2 md:border-b-0 ${
+            open ? "top-12 py-8" : "top-[-490px]"
+          }`}
+        >
+          {links.map((link) => (
+            <li key={link.name}>
+              <Link
+                className="text-lg font-medium hover:text-primary"
+                href={link.link}
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
-      {isOpen && (
-        <div className="md:hidden">
-          <ul className="flex flex-col space-y-4 justify-center items-center align-middle">
-            <li>
-              <Link href="/">
-                <div className="text-md cursor-pointer">Home</div>
-              </Link>
-            </li>
-            <li>
-              <Link href="#why">
-                <div className="text-md cursor-pointer">Why Yoga</div>
-              </Link>
-            </li>
-            <li>
-              <Link href="#membership">
-                <div className="text-md cursor-pointer">Membership</div>
-              </Link>
-            </li>
-            <li>
-              <Link href="#about">
-                <div className="text-md cursor-pointer">About</div>
-              </Link>
-            </li>
-            <li>
-              <Link href="#contact">
-                <div className="text-md cursor-pointer">Contact</div>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      )}
     </nav>
   );
 };
 
-export default Navbar;
+export default Nav;
