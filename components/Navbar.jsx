@@ -37,10 +37,7 @@ const Nav = () => {
         >
           {links.map((link) => (
             <li key={link.name}>
-              <Link
-                className="text-lg font-medium hover:text-primary"
-                href={link.link}
-              >
+              <Link className="font-medium hover:text-primary" href={link.link}>
                 {link.name}
               </Link>
             </li>

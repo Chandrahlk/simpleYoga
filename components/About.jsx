@@ -3,10 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div
-      className="p-4 md:px-12 my-16 md:my-10 py-16 bg-primary-foreground "
-      id="why"
-    >
+    <div className="p-4 md:px-12 py-16 bg-primary-foreground " id="why">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="flex justify-center w-full">
           <Image src="/why-logo.webp" width={500} height={250} />

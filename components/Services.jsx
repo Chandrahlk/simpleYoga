@@ -10,7 +10,7 @@ import { GrYoga } from "react-icons/gr";
 
 export default function Services() {
   return (
-    <div className="p-4 md:px-12 my-16 md:my-10 py-16">
+    <div className="p-4 md:px-12 py-16">
       <h1 className="text-3xl md:text-4xl font-medium text-center">Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-0 md:mx-auto justify-items-center justify-center items-center text-center my-8">
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">

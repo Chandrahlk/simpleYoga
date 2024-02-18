@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Trainers() {
   return (
-    <div className="p-4 md:px-12 my-16 md:my-10 py-16">
+    <div className="p-4 md:px-12 py-16 bg-primary-foreground">
       <h1 className="text-3xl md:text-4xl font-medium text-center">
         Our Trainers
       </h1>
