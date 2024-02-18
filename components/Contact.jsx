@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <FaPhoneVolume className="h-10 w-10" />
           <h1 className="text-lg font-medium">Phone</h1>
-          <p className=" text-muted-foreground">+91 7019197904</p>
+          <p className=" text-muted-foreground">+91 +91 9491785809</p>
         </div>
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <SiGmail className="h-10 w-10" />
