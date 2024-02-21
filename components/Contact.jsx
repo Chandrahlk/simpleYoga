@@ -2,15 +2,17 @@ import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { FaSquareWhatsapp } from "react-icons/fa6";
+
 import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="p-4 md:px-12 py-16">
+    <div className="space-y-8 px-4 md:px-8 py-16">
       <h1 className="text-3xl md:text-4xl font-medium text-center">
         Contact Us
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:w-1/2 gap-x-8 gap-y-0 md:mx-auto justify-items-center justify-center items-center text-center my-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:w-5/6 gap-x-8 gap-y-0 md:mx-auto justify-items-center justify-center items-center text-center">
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <FaPhoneVolume className="h-10 w-10" />
           <h1 className="text-lg font-medium">Phone</h1>
@@ -19,10 +21,19 @@ export default function Contact() {
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <SiGmail className="h-10 w-10" />
           <h1 className="text-lg font-medium">Mail</h1>
-          <p className=" text-muted-foreground">aadhyanthaacademy@gmail.com</p>
+          <p className=" text-muted-foreground overflow-auto">
+            aadhyanthaacademy@gmail.com
+          </p>
+        </div>
+        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+          <FaSquareWhatsapp className="h-10 w-10" />
+          <h1 className="text-lg font-medium">Whatsapp</h1>
+          <Link href="https://wa.me/9491785809" className=" text-primary">
+            +91 9491785809
+          </Link>
         </div>
       </div>
-      <div className="flex flex-col md:w-1/2 mx-auto justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+      <div className="flex flex-col md:w-1/2 mx-auto justify-center items-center border rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
         <FaMapLocationDot className="h-10 w-10" />
         <h1 className="text-lg font-medium">Location</h1>
         <Link
