@@ -38,22 +38,15 @@ export default function page() {
               <CarouselNext />
             </Carousel>
           </div>
-          <div className="flex flex-col justify-between align-middle gap-6">
+          <div className="flex flex-col justify-between align-middle gap-6 text-center md:text-left">
             <p className="text-muted-foreground">
               Note: Please choose your preferred time avalibility. You have the
               flexibility to attend multiple classes in a day and rearrange your
               schedule as needed!
             </p>
             <div className="flex flex-col gap-2">
-              <h4 className="font-medium">Avaliable Modes</h4>
-              <div className="flex gap-4">
-                <Button size="sm">At The Centre</Button>
-                <Button size="sm">Online</Button>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2">
               <h4 className="font-medium">Avaliable Plans</h4>
-              <div className="flex gap-4">
+              <div className="flex gap-4 justify-center md:justify-start">
                 <Button size="sm">1 Month</Button>
                 <Button size="sm">3 Month</Button>
                 <Button size="sm">6 Month</Button>
@@ -64,7 +57,7 @@ export default function page() {
               <h4 className="font-medium">
                 Weekdays Timings (Monday - Friday)
               </h4>
-              <div className="flex gap-4">
+              <div className="flex gap-4 justify-center md:justify-start">
                 <Button size="sm">6AM to 7AM</Button>
                 <Button size="sm">7AM to 8AM</Button>
                 <Button size="sm">5PM to 6PM</Button>
@@ -74,8 +67,16 @@ export default function page() {
               <h4 className="font-medium">
                 Weekends Timings (Saturday & Sunday)
               </h4>
-              <div className="flex gap-4">
-                <Button size="sm">6AM to 8:30AM</Button>
+              <div className="flex gap-4 justify-center md:justify-start">
+                <Button size="sm">6AM to 7AM</Button>
+                <Button size="sm">7AM to 8:30AM</Button>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="font-medium">Avaliable Modes</h4>
+              <div className="flex gap-4 justify-center md:justify-start">
+                <Button size="sm">At The Centre</Button>
+                <Button size="sm">Online</Button>
               </div>
             </div>
           </div>
@@ -119,7 +120,7 @@ export default function page() {
               <h4 className="font-medium md:text-left text-center text-primary">
                 REGULAR YOGA CLASSES
               </h4>
-              <div className="grid grid-cols-3 md:grid-cols-4 justify-center items-center gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-4">
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Yoga Asanas
                 </h1>
@@ -144,7 +145,7 @@ export default function page() {
               <h4 className="font-medium md:text-left text-center text-primary">
                 THERAPIES / HEALING
               </h4>
-              <div className="grid grid-cols-3 md:grid-cols-4 justify-center items-center gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-4">
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Yoga Therapy
                 </h1>
@@ -170,7 +171,7 @@ export default function page() {
               <h4 className="font-medium md:text-left text-center text-primary">
                 WORKSHOP / CERTIFICATES
               </h4>
-              <div className="grid grid-cols-3 md:grid-cols-4 justify-center items-center gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-4">
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Pranic Healing
                 </h1>
