@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Hero() {
   return (
@@ -12,8 +14,18 @@ export default function Hero() {
           heaven.
         </h4>
         <div className="flex gap-4">
-          <Button size="lg">JOIN</Button>
-          <Button size="lg">PRODUCTS</Button>
+          <Link href="/yoga">
+            <Button className="gap-2" size="lg">
+              <FaArrowRightLong />
+              YOGA
+            </Button>
+          </Link>
+          <Link href="/chess">
+            <Button className="gap-2" size="lg">
+              <FaArrowRightLong />
+              CHESS
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="flex justify-center">

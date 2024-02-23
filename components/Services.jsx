@@ -21,9 +21,11 @@ export default function Services() {
             body and calm the mind, promoting physical flexibility and mental
             clarity.
           </p>
-          <Button className="m-4 w-full" size="lg">
-            <Link href="/yoga">Know More</Link>
-          </Button>
+          <Link className="w-full" href="/yoga">
+            <Button className="w-full" size="lg">
+              Know More
+            </Button>
+          </Link>
         </div>
         {/* <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <MdEnergySavingsLeaf className="h-10 w-10" />
@@ -43,9 +45,11 @@ export default function Services() {
             the battlefield, challenging your intellect and decision-making
             skills.
           </p>
-          <Button className="m-4 w-full" size="lg">
-            <Link href="/chess">Know More</Link>
-          </Button>
+          <Link className="w-full" href="/chess">
+            <Button className="w-full" size="lg">
+              Know More
+            </Button>
+          </Link>
         </div>
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <FaClipboardList className="h-10 w-10" />
@@ -55,9 +59,11 @@ export default function Services() {
             problem-solving and logical reasoning unveil the beauty and order
             underlying our world.
           </p>
-          <Button className="m-4 w-full" size="lg">
-            Know More
-          </Button>
+          <Link className="w-full" href="#">
+            <Button className="w-full" size="lg">
+              Coming Soon
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

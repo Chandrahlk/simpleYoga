@@ -5,10 +5,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Nav = () => {
   const links = [
+    { name: "Home", link: "/" },
     { name: "Yoga", link: "/yoga" },
-    { name: "Chess", link: "/" },
-    { name: "Products", link: "/" },
-    { name: "About", link: "/" },
+    { name: "Chess", link: "/chess" },
+    { name: "Products", link: "/products" },
   ];
   return (
     <nav className="sticky top-0 z-50 border-b-2 bg-white flex justify-between items-center p-4 md:px-8">

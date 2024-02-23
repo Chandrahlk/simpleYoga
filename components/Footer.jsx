@@ -15,10 +15,16 @@ export default function Footer() {
           href="https://instagram.com/aadhyantha_yoga?igshid=MzNlNGNkZWQ4M
 g"
         >
-          <FaSquareInstagram size={30} className=" hover:text-primary" />
+          <FaSquareInstagram
+            size={30}
+            className="text-primary hover:text-primary/80"
+          />
         </Link>
         <Link href="https://wa.me/9491785809">
-          <FaSquareWhatsapp size={30} className=" hover:text-primary" />
+          <FaSquareWhatsapp
+            size={30}
+            className="text-primary hover:text-primary/80"
+          />
         </Link>
       </div>
       <p className="text-muted-foreground text-sm text-center">
