@@ -10,8 +10,7 @@ export default function Hero() {
       <div className="flex flex-col justify-center items-center md:items-start gap-4 text-center md:text-left py-8 md:py-0">
         <h1 className="text-3xl md:text-6xl font-medium">Aadhyantha Academy</h1>
         <h4 className="text-lg md:text-xl text-muted-foreground">
-          Join us for yoga, meditation, ayurveda, chess and more at our calming
-          heaven.
+          Join us for yoga, meditation, chess and more at our calming heaven.
         </h4>
         <div className="flex gap-4">
           <Link href="/yoga">

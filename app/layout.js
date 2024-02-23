@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Aadhyantha Academy",
   description:
-    "Join us for yoga, meditation, ayurveda, chess and more at our calming heaven.",
+    "Join us for yoga, meditation, chess and more at our calming heaven.",
 };
 
 export default function RootLayout({ children }) {
