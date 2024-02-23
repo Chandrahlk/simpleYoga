@@ -18,7 +18,7 @@ export default function page() {
       <h1 className="px-4 md:px-8 pt-16 text-3xl md:text-4xl text-center font-medium">
         Yoga
       </h1>
-      <div className="px-4 md:px-8 py-16 space-y-8">
+      <div className="px-4 md:px-8 pt-12 pb-16 space-y-8">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8">
           <div className="flex justify-center items-center">
             <Carousel

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <div className="min-h-screen px-4 md:px-8 py-16">
-      <h1 className="text-3xl md:text-4xl font-medium pb-16 text-center">
+      <h1 className="text-3xl md:text-4xl font-medium pb-12 text-center">
         Products
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">

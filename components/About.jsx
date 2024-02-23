@@ -8,7 +8,7 @@ export default function About() {
         <Image src="/why-logo.webp" width={500} height={250} />
       </div>
       <div className="w-full flex flex-col justify-center items-center md:items-start space-y-6 text-center md:text-left mt-8 md:mt-0">
-        <h1 className="text-3xl md:text-4xl font-medium">About Us</h1>
+        <h1 className="text-3xl md:text-4xl font-medium pb-2">About Us</h1>
         <h4 className="text-muted-foreground">
           Welcome to Aadhyantha Yoga Studio, nurtured by the vision of our
           founder, Sulappagari Suman. Here, we offer a harmonious blend of yoga,
