@@ -28,7 +28,12 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex justify-center">
-        <Image src="/hero-logo.webp" width={500} height={125} />
+        <Image
+          className="rounded-md"
+          src="/yoga/17.jpeg"
+          width={500}
+          height={125}
+        />
       </div>
     </div>
   );

@@ -6,8 +6,8 @@ export default function Founder() {
     <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 pb-16 bg-primary-foreground">
       <div className="flex justify-center w-full">
         <Image
-          className="rounded-full"
-          src="/hero-logo.webp"
+          className="rounded-md"
+          src="/yoga/founder.jpeg"
           width={400}
           height={250}
         />

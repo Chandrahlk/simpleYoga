@@ -5,7 +5,12 @@ export default function About() {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-16 bg-primary-foreground">
       <div className="flex justify-center w-full">
-        <Image src="/why-logo.webp" width={500} height={250} />
+        <Image
+          className="border rounded-md shadow-md"
+          src="/yoga/about.jpeg"
+          width={500}
+          height={250}
+        />
       </div>
       <div className="w-full flex flex-col justify-center items-center md:items-start space-y-6 text-center md:text-left mt-8 md:mt-0">
         <h1 className="text-3xl md:text-4xl font-medium pb-2">About Us</h1>

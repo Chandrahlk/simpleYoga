@@ -10,7 +10,17 @@ import {
 } from "@/components/ui/carousel";
 import Pricing from "@/components/Pricing";
 
-const imageGallery = ["/yoga-image.webp", "/hero-logo.webp"];
+const imageGallery = [
+  "/yoga/13.jpeg",
+  "/yoga/15.jpeg",
+  "/yoga/16.jpeg",
+  "/yoga/18.jpeg",
+  "/yoga/19.jpeg",
+  "/yoga/22.jpeg",
+  "/yoga/23.jpeg",
+  "/yoga/about.jpeg",
+  "/yoga/founder.jpeg",
+];
 
 export default function page() {
   return (
@@ -32,7 +42,7 @@ export default function page() {
                 {imageGallery.map((url, index) => (
                   <CarouselItem key={index} className="grow">
                     <div className="p-1 border rounded-xl shadow aspect-auto flex justify-center">
-                      <Image src={url} height="150" width="300" />
+                      <Image src={url} height="150" width="500" />
                     </div>
                   </CarouselItem>
                 ))}
