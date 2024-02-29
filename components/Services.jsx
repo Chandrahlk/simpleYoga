@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { FaChess } from "react-icons/fa6";
 import { FaClipboardList } from "react-icons/fa";
-import { MdEnergySavingsLeaf } from "react-icons/md";
+import { TbReportMoney } from "react-icons/tb";
 import { GrYoga } from "react-icons/gr";
 import Link from "next/link";
 
@@ -52,12 +52,12 @@ export default function Services() {
           </Link>
         </div>
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
-          <FaClipboardList className="h-10 w-10" />
-          <h1 className="text-lg font-medium">Others</h1>
+          <TbReportMoney className="h-10 w-10" />
+          <h1 className="text-lg font-medium">Finance Services</h1>
           <p className=" text-muted-foreground">
-            Dive into the realm of numbers, equations, and patterns, where
-            problem-solving and logical reasoning unveil the beauty and order
-            underlying our world.
+            Empower your financial future with our services: insurance, mutual
+            funds, stocks, life, vehicle and health coverage. Tailored solutions
+            for you.
           </p>
           <Link className="w-full" href="#">
             <Button className="w-full" size="lg">

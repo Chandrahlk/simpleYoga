@@ -18,6 +18,7 @@ const imageGallery = [
   "/yoga/19.jpeg",
   "/yoga/22.jpeg",
   "/yoga/23.jpeg",
+  "/yoga/28.jpeg",
   "/yoga/about.jpeg",
   "/yoga/founder.jpeg",
 ];

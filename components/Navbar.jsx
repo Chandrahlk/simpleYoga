@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <nav className="sticky top-0 z-50 border-b-2 bg-white flex justify-between items-center p-4 md:px-8">
       <div className="flex items-center hover:text-primary font-bold gap-2 text-2xl cursor-pointer">
-        <Image src="/hero-logo.webp" width={30} height={30} />
+        <Image src="/logo.png" width={30} height={30} />
         <Link href="/">Aadhyantha Academy</Link>
       </div>
       {/* mobile */}

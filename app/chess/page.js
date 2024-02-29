@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 
-const imageGallery = ["/yoga/19.jpeg", "/yoga/22.jpeg", "/yoga/23.jpeg"];
+const imageGallery = ["/chess/1.jpeg", "/yoga/23.jpeg"];
 
 export default function page() {
   return (
@@ -32,7 +32,7 @@ export default function page() {
                 {imageGallery.map((url, index) => (
                   <CarouselItem key={index} className="grow">
                     <div className="p-1 border rounded-xl shadow aspect-auto flex justify-center">
-                      <Image src={url} height="150" width="500" />
+                      <Image src={url} height="500" width="500" />
                     </div>
                   </CarouselItem>
                 ))}
@@ -123,9 +123,9 @@ export default function page() {
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <Link className="w-full" href="#">
+            <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
-                Join Now
+                Contact Us
               </Button>
             </Link>
           </div>
@@ -137,9 +137,9 @@ export default function page() {
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <Link className="w-full" href="#">
+            <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
-                Join Now
+                Contact Us
               </Button>
             </Link>
           </div>
@@ -151,9 +151,9 @@ export default function page() {
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <Link className="w-full" href="#">
+            <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
-                Join Now
+                Contact Us
               </Button>
             </Link>
           </div>

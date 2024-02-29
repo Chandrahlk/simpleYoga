@@ -15,9 +15,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 0 Discount</p>
           <p className=" text-muted-foreground"> Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -29,9 +29,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 1,000 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -43,9 +43,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 4,000 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -57,9 +57,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 10,000 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -73,9 +73,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 500 Discount</p>
           <p className=" text-muted-foreground"> Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -89,9 +89,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 400 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -105,9 +105,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 500 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
@@ -121,9 +121,9 @@ export default function Membership() {
           <p className=" text-muted-foreground">&#8377; 500 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/contact">
             <Button className="w-full" size="lg">
-              Join Now
+              Contact Us
             </Button>
           </Link>
         </div>
