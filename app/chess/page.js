@@ -154,6 +154,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground">Home visit available</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -179,6 +180,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground">Home visit available</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -204,6 +206,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground">Home visit available</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
