@@ -10,7 +10,19 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 
-const imageGallery = ["/chess/1.jpeg", "/yoga/23.jpeg"];
+const imageGallery = [
+  "/chess/0.jpeg",
+  "/chess/2.jpeg",
+  "/chess/4.jpeg",
+  "/chess/6.jpeg",
+  "/chess/7.jpeg",
+  "/chess/8.jpeg",
+  "/chess/9.jpeg",
+  "/chess/10.jpeg",
+  "/chess/11.jpeg",
+  "/chess/12.jpeg",
+  "/chess/13.jpeg",
+];
 
 export default function page() {
   return (
@@ -20,7 +32,7 @@ export default function page() {
       </h1>
       <div className="px-4 md:px-8 pt-12 pb-16 space-y-8">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center align-middle">
             <Carousel
               opts={{
                 align: "start",
@@ -32,7 +44,7 @@ export default function page() {
                 {imageGallery.map((url, index) => (
                   <CarouselItem key={index} className="grow">
                     <div className="p-1 border rounded-xl shadow aspect-auto flex justify-center">
-                      <Image src={url} height="500" width="500" />
+                      <Image src={url} height="150" width="500" />
                     </div>
                   </CarouselItem>
                 ))}
@@ -59,7 +71,7 @@ export default function page() {
               <h4 className="font-medium">Chess Classes For</h4>
               <div className="flex gap-4 justify-center md:justify-start">
                 <Button size="sm">Ultra Beginner</Button>
-                <Button size="sm">Begineer</Button>
+                <Button size="sm">Strong Begineer</Button>
                 <Button size="sm">Intermediate</Button>
               </div>
             </div>
@@ -117,12 +129,22 @@ export default function page() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
           <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
             <h1 className="text-lg font-medium">ULTRA BEGINNER</h1>
-            <h1 className="text-4xl font-medium text-primary">&#8377; 1,200</h1>
+            <h1 className="text-4xl font-medium text-primary">&#8377; 1,500</h1>
             <p className="text-primary font-medium">For 1 Month</p>
+            <p className="text-primary font-medium">
+              For 3 months &#8377;5,700
+            </p>
+            <p className="text-primary font-medium">
+              For 6 months &#8377;10,500
+            </p>
+            <p className="text-primary font-medium">
+              For 12 months &#8377;19,500
+            </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
-            <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground"> Free online tournament </p>
+            <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -130,13 +152,23 @@ export default function page() {
             </Link>
           </div>
           <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
-            <h1 className="text-lg font-medium">BEGINNER</h1>
-            <h1 className="text-4xl font-medium text-primary">&#8377; 1,500</h1>
+            <h1 className="text-lg font-medium">STRONG BEGINNER</h1>
+            <h1 className="text-4xl font-medium text-primary">&#8377; 1,800</h1>
             <p className="text-primary font-medium">For 1 Month</p>
+            <p className="text-primary font-medium">
+              For 3 months &#8377;5,900
+            </p>
+            <p className="text-primary font-medium">
+              For 6 months &#8377;11,000
+            </p>
+            <p className="text-primary font-medium">
+              For 12 months &#8377;20,000
+            </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
-            <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground"> Free online tournament </p>
+            <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -147,10 +179,20 @@ export default function page() {
             <h1 className="text-lg font-medium">INTERMEDIATE</h1>
             <h1 className="text-4xl font-medium text-primary">&#8377; 2,000</h1>
             <p className="text-primary font-medium">For 1 Month</p>
+            <p className="text-primary font-medium">
+              For 3 months &#8377;6,200
+            </p>
+            <p className="text-primary font-medium">
+              For 6 months &#8377;11,500
+            </p>
+            <p className="text-primary font-medium">
+              For 12 months &#8377;21,000
+            </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
-            <p className=" text-muted-foreground">Offline/Online classes</p>
+            <p className=" text-muted-foreground"> Free online tournament </p>
+            <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us

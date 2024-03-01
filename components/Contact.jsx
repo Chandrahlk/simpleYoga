@@ -21,9 +21,12 @@ export default function Contact() {
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <SiGmail className="h-10 w-10" />
           <h1 className="text-lg font-medium">Mail</h1>
-          <p className=" text-muted-foreground overflow-auto">
+          <Link
+            className="text-primary"
+            href="mailto:'aadhyanthaacademy@gmail.com'"
+          >
             aadhyanthaacademy@gmail.com
-          </p>
+          </Link>
         </div>
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <FaSquareWhatsapp className="h-10 w-10" />

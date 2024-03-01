@@ -12,6 +12,7 @@ export default function Footer() {
       <h1 className="text-center text-lg font-semibold">Social Links</h1>
       <div className="flex justify-center items-center space-x-6">
         <Link
+          target="_blank"
           href="https://instagram.com/aadhyantha_yoga?igshid=MzNlNGNkZWQ4M
 g"
         >
@@ -20,7 +21,7 @@ g"
             className="text-primary hover:text-primary/80"
           />
         </Link>
-        <Link href="https://wa.me/9491785809">
+        <Link target="_blank" href="https://wa.me/9491785809">
           <FaSquareWhatsapp
             size={30}
             className="text-primary hover:text-primary/80"
