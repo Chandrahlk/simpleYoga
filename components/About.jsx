@@ -12,24 +12,33 @@ export default function About() {
           height={250}
         />
       </div>
-      <div className="w-full flex flex-col justify-center items-center md:items-start space-y-6 text-center md:text-left mt-8 md:mt-0">
+      <div className="w-full flex flex-col justify-center items-center md:items-start space-y-4 text-center md:text-left mt-8 md:mt-0">
         <h1 className="text-3xl md:text-4xl font-medium pb-2">About Us</h1>
         <h4 className="text-muted-foreground">
-          Welcome to Aadhyantha Yoga Studio, nurtured by the vision of our
-          founder, Sulappagari Suman. Here, we offer a harmonious blend of yoga,
-          marma, Pranic healing, and Ayurveda basics, fostering holistic
-          well-being for our members. Situated in the heart of Bangalore City,
-          our tranquil space celebrates the journey from 'aadhya' to 'anthya,'
-          unlocking the boundless potential of the mind, body, and soul.
+          Welcome to Aadhyantha Academy, where ancient wisdom meets modern
+          vitality! Nestled in the heart of Bangalore City, we're dedicated to
+          nurturing holistic well-being for mind, body, and soul.
         </h4>
         <p className="text-muted-foreground">
-          Founded in 2021 with a passionate commitment to holistic health,
-          Aadhyantha Yoga Studio has flourished into a vibrant community hub by
-          2023. Today, boasting over 200 active members, we have not only grown
-          but have also established ourselves as a pillar of well-being in the
-          city. Join us on our journey where ancient practices seamlessly blend
-          with modern living, offering simplicity and transformation at every
-          step.
+          Founded in 2021 by the visionary Sulappagari Suman, our vibrant
+          community hub has blossomed into a pillar of well-being with over 200
+          active members by 2023. Here, we blend the tranquility of yoga, the
+          healing arts of marma and Pranic healing, and the timeless principles
+          of Ayurveda to create a space where simplicity and transformation go
+          hand in hand.
+        </p>
+        <p className="text-muted-foreground">
+          But we're not just about inner peace—we're also passionate about
+          enhancing cognitive development in young minds. Through engaging
+          classes in chess, mathematics, Vedic maths, and Rubik's cubes, we fuse
+          ancient Vedic sciences with modern learning, inspiring curiosity,
+          critical thinking, and problem-solving skills.
+        </p>
+        <p className="text-muted-foreground">
+          Join us on this journey as we traverse the path from 'aadhi'
+          (beginning) to 'anthya' (end), embodying the spirit of growth,
+          enlightenment, and holistic well-being, just as our name, Aadhyantha,
+          suggests. Let's unlock the boundless potential within, together!
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center text-center space-y-9 md:space-y-0 md:space-x-9">
           <div className="flex flex-col justify-center items-center md:items-start space-y-3">

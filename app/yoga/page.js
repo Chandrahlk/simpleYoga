@@ -20,9 +20,7 @@ const imageGallery = [
   "/yoga/22.jpeg",
   "/yoga/23.jpeg",
   "/yoga/28.jpeg",
-  "/yoga/33.jpeg",
   "/yoga/34.jpeg",
-  "/yoga/35.jpeg",
   "/yoga/36.jpeg",
   "/yoga/about.jpeg",
   "/yoga/founder.jpeg",
@@ -164,7 +162,7 @@ export default function page() {
                   Mudras
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Affirmations
+                  Pregnancy Yoga
                 </h1>
               </div>
             </div>
