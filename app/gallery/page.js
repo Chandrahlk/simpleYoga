@@ -34,7 +34,7 @@ export default function page() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-12">
         {imageGallery.map((url, index) => (
           <Image
-            className="border rounded-md shadow-md hover:scale-125 transition duration-500 cursor-pointer"
+            className="border rounded-md shadow-md md:hover:scale-125 transition duration-500 cursor-pointer"
             key={index}
             src={url}
             height="150"

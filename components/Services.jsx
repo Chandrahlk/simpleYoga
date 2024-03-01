@@ -13,7 +13,7 @@ export default function Services() {
         Our Offerings
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-0 md:mx-auto justify-items-center justify-center items-center text-center">
-        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+        <div className="flex flex-col w-full justify-center items-center border m-0 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
           <GrYoga className="h-10 w-10" />
           <h1 className="text-lg font-medium">Yoga</h1>
           <p className=" text-muted-foreground">
