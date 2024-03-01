@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-16 bg-primary-foreground">
+    <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-12 bg-primary-foreground">
       <div className="flex justify-center w-full">
         <Image
           className="border rounded-md shadow-md"

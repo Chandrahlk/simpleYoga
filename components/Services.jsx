@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <div className="space-y-8 px-4 md:px-8 py-16">
+    <div className="space-y-8 px-4 md:px-8 py-12">
       <h1 className="text-3xl md:text-4xl font-medium text-center">
         Our Offerings
       </h1>

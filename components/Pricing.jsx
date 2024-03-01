@@ -4,9 +4,11 @@ import Link from "next/link";
 
 export default function Membership() {
   return (
-    <div className="px-4 md:px-8 py-16">
-      <h1 className="text-3xl md:text-4xl font-medium text-center">Pricing</h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pt-12">
+    <div className="px-4 md:px-8 py-12">
+      <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
+        Pricing
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
           <h1 className="text-lg font-medium">1 MONTH</h1>
           <h1 className="text-4xl font-medium text-primary">&#8377; 2,000</h1>

@@ -26,10 +26,10 @@ const imageGallery = [
 export default function page() {
   return (
     <div>
-      <h1 className="px-4 md:px-8 pt-16 text-3xl md:text-4xl text-center font-medium">
+      <h1 className="px-4 md:px-8 pt-12 text-3xl md:text-4xl text-center font-medium">
         Yoga
       </h1>
-      <div className="px-4 md:px-8 pt-12 pb-16 space-y-8">
+      <div className="px-4 md:px-8 pt-12 pb-12 space-y-8">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8">
           <div className="flex justify-center items-center">
             <Carousel
@@ -96,7 +96,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="px-4 md:px-8 py-16 space-y-8 bg-primary-foreground">
+      <div className="px-4 md:px-8 py-12 space-y-8 bg-primary-foreground">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8">
           <div className="space-y-4 border p-4 rounded-lg shadow">
             <h1 className="text-3xl md:text-4xl md:text-left text-center font-medium py-4">

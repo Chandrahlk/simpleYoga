@@ -27,10 +27,10 @@ const imageGallery = [
 export default function page() {
   return (
     <div>
-      <h1 className="px-4 md:px-8 pt-16 text-3xl md:text-4xl text-center font-medium">
+      <h1 className="px-4 md:px-8 pt-12 text-3xl md:text-4xl text-center font-medium">
         Chess
       </h1>
-      <div className="px-4 md:px-8 pt-12 pb-16 space-y-8">
+      <div className="px-4 md:px-8 pt-12 pb-12 space-y-8">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8">
           <div className="flex justify-center items-center align-middle">
             <Carousel
@@ -84,7 +84,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="px-4 md:px-8 py-16 bg-primary-foreground">
+      <div className="px-4 md:px-8 py-12 bg-primary-foreground">
         <div className="space-y-4">
           <h1 className="text-3xl md:text-4xl text-center font-medium pb-8">
             About Chess
@@ -122,7 +122,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="px-4 md:px-8 py-16">
+      <div className="px-4 md:px-8 py-12">
         <h1 className="text-3xl md:text-4xl font-medium text-center">
           Pricing
         </h1>
