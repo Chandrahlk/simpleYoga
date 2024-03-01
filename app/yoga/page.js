@@ -54,28 +54,34 @@ const reviews = [
       "Thank you for amazing morning class!! Class was based on Hatha and he is good at supporting us for deeper posture. Above all, he is really nice person and friendly. I will go back to his class when I come back to Bangalore!!",
   },
   {
-    name: "Toni Monge",
-    place: "Taiwan",
+    name: "Ashok Srinivasan",
+    place: "Bangalore",
     content:
-      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+      "Suman has been a great source of inspiration for me .. The way he had trained me to do my Himalaya (mayali pass) trek is truly commendable and to this day it has been helping me and my wife lead a healthy lifestyle .. He does not stuck only in teaching you the asana’s but goes in length in explaining the reason and the logic behind it",
   },
   {
-    name: "Toni Monge",
-    place: "Taiwan",
+    name: "Sowmya S (Youtuber)",
+    place: "Bangalore",
     content:
-      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+      "Very good positive vibe in the class with meditation, pranayama and yoga. Suman sir teaches Very well and tells the benefits of each Asanas and teaches the breathing techniques required for each asana so that we reap the full benefit of the asana. Thank you sir!",
   },
   {
-    name: "Toni Monge",
-    place: "Taiwan",
+    name: "Chanda Rawat",
+    place: "Gurugram, Haryana",
     content:
-      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+      "The daily Asanas were well planned to take care of our body and mind completely. Suman Sir always gave variations according to our strength and flexibility which helped me a lot. I had a nice experience practicing yoga with Aadhyantha",
   },
   {
-    name: "Toni Monge",
-    place: "Taiwan",
+    name: "Monika Tara Yeluri",
+    place: "Rajahmundry, AP",
     content:
-      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+      "Yoga Instructor Suman garu has a lot of patience and make us more informative about the Asanas we do and brings us the lot of positivity.",
+  },
+  {
+    name: "Santosh Kumar",
+    place: "Mangalore, Karnataka",
+    content:
+      "Suman sir is a very good yoga teacher his teaching methodology is unique and very useful for today's stress and lifestyle thank you very much sir",
   },
 ];
 

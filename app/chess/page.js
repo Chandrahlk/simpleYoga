@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Link from "next/link";
+import Reviews from "@/components/Reviews";
 
 const imageGallery = [
   "/chess/0.jpeg",
@@ -22,6 +23,40 @@ const imageGallery = [
   "/chess/11.jpeg",
   "/chess/12.jpeg",
   "/chess/13.jpeg",
+];
+
+const reviews = [
+  {
+    name: "Dhanush",
+    place: "Bangalore",
+    content:
+      "Here I had a great experience with Suman sir about chess, I liked the way of teaching, I recommend this chess class for all",
+  },
+  {
+    name: "shilpa Jayaram",
+    place: "Bangalore",
+    content:
+      "The chess classes were engaging and interactive. I appreciated the opportunity to practice what my son learned through hands-on exercises and games. I'm grateful for the chess classes. Not only did they help my son improve his game, but they also sparked his interest in exploring chess further outside of class time.",
+  },
+  ,
+  {
+    name: "Ranjitha koppal",
+    place: "Bangalore",
+    content:
+      "The way of teaching is very good ,my son's interest towards chess is increasing day by day, I am happy. Thank you Suman sir",
+  },
+  {
+    name: "Bhadrinath Eruventee",
+    place: "Bangalore",
+    content:
+      "The way the sir nurturing the students in chess learning is awesome. Especially this is helping alot in the  kids thought process on there own and they are  applying in studies and extra curricular activities..",
+  },
+  {
+    name: "Anupama Girish",
+    place: "Bangalore",
+    content:
+      "One of the best teacher, way of his teaching is too good. During the class sir was  asking the questions so kids understand very well.",
+  },
 ];
 
 export default function page() {
@@ -94,6 +129,7 @@ export default function page() {
               <div className="flex gap-4 justify-center md:justify-start">
                 <Button size="sm">At The Centre</Button>
                 <Button size="sm">Online</Button>
+                <Button size="sm">Home Visit</Button>
               </div>
             </div>
           </div>
@@ -161,7 +197,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <p className=" text-muted-foreground">Home visit available</p>
+
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -187,7 +223,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <p className=" text-muted-foreground">Home visit available</p>
+
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -213,13 +249,28 @@ export default function page() {
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
             <p className=" text-muted-foreground">Offline/Online classes</p>
-            <p className=" text-muted-foreground">Home visit available</p>
+
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
               </Button>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className="px-4 md:px-8 py-12  bg-primary-foreground">
+        <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
+          Reviews
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {reviews.map((review, index) => (
+            <Reviews
+              key={index}
+              name={review.name}
+              place={review.place}
+              content={review.content}
+            />
+          ))}
         </div>
       </div>
     </div>
