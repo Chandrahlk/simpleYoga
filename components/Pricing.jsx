@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Membership() {
   return (
-    <div className="px-4 md:px-8 py-12">
+    <div className="px-4 md:px-8 py-12" id="pricing">
       <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
         Pricing
       </h1>

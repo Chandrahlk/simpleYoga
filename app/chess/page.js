@@ -61,10 +61,18 @@ export default function page() {
             <div className="flex flex-col gap-2">
               <h4 className="font-medium">Avaliable Plans</h4>
               <div className="flex gap-4 justify-center md:justify-start">
-                <Button size="sm">1 Month</Button>
-                <Button size="sm">3 Month</Button>
-                <Button size="sm">6 Month</Button>
-                <Button size="sm">12 Month</Button>
+                <Button size="sm">
+                  <Link href="#pricing">1 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">3 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">6 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">12 Month</Link>
+                </Button>
               </div>
             </div>
             <div className="flex flex-col gap-2">
@@ -122,7 +130,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="px-4 md:px-8 py-12">
+      <div className="px-4 md:px-8 py-12" id="pricing">
         <h1 className="text-3xl md:text-4xl font-medium text-center">
           Pricing
         </h1>
@@ -132,19 +140,20 @@ export default function page() {
             <h1 className="text-4xl font-medium text-primary">&#8377; 1,500</h1>
             <p className="text-primary font-medium">For 1 Month</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;5,700
+              For 3 months &#8377;4,300
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;10,500
+              For 6 months &#8377;8,400
             </p>
             <p className="text-primary font-medium">
-              For 12 months &#8377;19,500
+              For 12 months &#8377;16,000
             </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
+            <p className=" text-muted-foreground">Offline/Online classes</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -156,19 +165,20 @@ export default function page() {
             <h1 className="text-4xl font-medium text-primary">&#8377; 1,800</h1>
             <p className="text-primary font-medium">For 1 Month</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;5,900
+              For 3 months &#8377;5,200
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;11,000
+              For 6 months &#8377;10,000
             </p>
             <p className="text-primary font-medium">
-              For 12 months &#8377;20,000
+              For 12 months &#8377;19,000
             </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
+            <p className=" text-muted-foreground">Offline/Online classes</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us
@@ -180,10 +190,10 @@ export default function page() {
             <h1 className="text-4xl font-medium text-primary">&#8377; 2,000</h1>
             <p className="text-primary font-medium">For 1 Month</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;6,200
+              For 3 months &#8377;5,700
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;11,500
+              For 6 months &#8377;11,000
             </p>
             <p className="text-primary font-medium">
               For 12 months &#8377;21,000
@@ -193,6 +203,7 @@ export default function page() {
             <p className=" text-muted-foreground"> Free Chess Books</p>
             <p className=" text-muted-foreground"> Free online tournament </p>
             <p className=" text-muted-foreground">Free 2 yoga session/month</p>
+            <p className=" text-muted-foreground">Offline/Online classes</p>
             <Link className="w-full" href="/contact">
               <Button className="w-full" size="lg">
                 Contact Us

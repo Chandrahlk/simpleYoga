@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import {
   Carousel,
   CarouselContent,
@@ -19,6 +20,10 @@ const imageGallery = [
   "/yoga/22.jpeg",
   "/yoga/23.jpeg",
   "/yoga/28.jpeg",
+  "/yoga/33.jpeg",
+  "/yoga/34.jpeg",
+  "/yoga/35.jpeg",
+  "/yoga/36.jpeg",
   "/yoga/about.jpeg",
   "/yoga/founder.jpeg",
 ];
@@ -61,10 +66,18 @@ export default function page() {
             <div className="flex flex-col gap-2">
               <h4 className="font-medium">Avaliable Plans</h4>
               <div className="flex gap-4 justify-center md:justify-start">
-                <Button size="sm">1 Month</Button>
-                <Button size="sm">3 Month</Button>
-                <Button size="sm">6 Month</Button>
-                <Button size="sm">12 Month</Button>
+                <Button size="sm">
+                  <Link href="#pricing">1 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">3 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">6 Month</Link>
+                </Button>
+                <Button size="sm">
+                  <Link href="#pricing">12 Month</Link>
+                </Button>
               </div>
             </div>
             <div className="flex flex-col gap-2">
