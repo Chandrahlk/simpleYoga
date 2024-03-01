@@ -89,6 +89,13 @@ export default function page() {
                 <Button size="sm">6:30PM to 8PM</Button>
               </div>
             </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="font-medium">Avaliable Modes</h4>
+              <div className="flex gap-4 justify-center md:justify-start">
+                <Button size="sm">At The Centre</Button>
+                <Button size="sm">Online</Button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

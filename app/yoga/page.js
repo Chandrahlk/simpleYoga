@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Pricing from "@/components/Pricing";
+import Reviews from "@/components/Reviews";
 
 const imageGallery = [
   "/yoga/13.jpeg",
@@ -24,6 +25,58 @@ const imageGallery = [
   "/yoga/36.jpeg",
   "/yoga/about.jpeg",
   "/yoga/founder.jpeg",
+];
+
+const reviews = [
+  {
+    name: "Toni Monge",
+    place: "Taiwan",
+    content:
+      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+  },
+  {
+    name: "Aswini koduri",
+    place: "Michigan USA",
+    content:
+      "I am the beginner in yoga and feel fresh and relaxed after the class.Suman is the excellence instructor for the morning Online sessions. Yoga Asanas helped for my head back pain.",
+  },
+  ,
+  {
+    name: "Girija Sharma",
+    place: "London, UK",
+    content:
+      "It was wonderful doing yoga with Suman Sir!!! His systematic and smooth way of teaching yoga helped me improving myself. It was a complete package with Asanas, Surya Namaskara and Pranayama. It was a pleasant journey throughout Suman Sir.",
+  },
+  {
+    name: "Seina Yamanaka",
+    place: "Japan,Tokyo",
+    content:
+      "Thank you for amazing morning class!! Class was based on Hatha and he is good at supporting us for deeper posture. Above all, he is really nice person and friendly. I will go back to his class when I come back to Bangalore!!",
+  },
+  {
+    name: "Toni Monge",
+    place: "Taiwan",
+    content:
+      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+  },
+  {
+    name: "Toni Monge",
+    place: "Taiwan",
+    content:
+      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+  },
+  {
+    name: "Toni Monge",
+    place: "Taiwan",
+    content:
+      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+  },
+  {
+    name: "Toni Monge",
+    place: "Taiwan",
+    content:
+      "Great yoga class! Mixed yoga and meditation, Teacher Suman is very knowledgeable! Happy to have joined.",
+  },
 ];
 
 export default function page() {
@@ -221,6 +274,21 @@ export default function page() {
         </div>
       </div>
       <Pricing />
+      <div className="px-4 md:px-8 py-12  bg-primary-foreground">
+        <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
+          Reviews
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {reviews.map((review, index) => (
+            <Reviews
+              key={index}
+              name={review.name}
+              place={review.place}
+              content={review.content}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
