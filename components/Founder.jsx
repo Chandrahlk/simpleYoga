@@ -27,10 +27,10 @@ export default function Founder() {
         <p className="font-semibold text-muted-foreground">
           Their achievements include presenting a paper on the effects of Om
           chanting in school children at the Global Yoga Summit in 2022 and
-          being a part of Guinness World Record and World Book of Record in
-          Yogasana. Suman's contributions earned them the prestigious "Yoga
-          Rathna" Award from the Karnataka Department of Kannada and Culture in
-          2023.
+          being a 5 times part of Guinness World records and World Book of
+          Record in Yogasana. Suman's contributions earned them the prestigious
+          "Yoga Rathna" Award from the Karnataka Department of Kannada and
+          Culture in 2023.
         </p>
 
         <p className="text-muted-foreground">
