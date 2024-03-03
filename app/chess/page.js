@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 import Reviews from "@/components/Reviews";
+import TrainersChess from "@/components/TrainersChess";
 
 const imageGallery = [
   "/chess/0.jpeg",
@@ -178,7 +179,7 @@ export default function page() {
           Pricing
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
-          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
+          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">ULTRA BEGINNER</h1>
             <h1 className="text-4xl font-medium text-primary">&#8377; 1,500</h1>
             <p className="text-primary font-medium">For 1 Month</p>
@@ -204,7 +205,7 @@ export default function page() {
               </Button>
             </Link>
           </div>
-          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
+          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">STRONG BEGINNER</h1>
             <h1 className="text-4xl font-medium text-primary">&#8377; 1,800</h1>
             <p className="text-primary font-medium">For 1 Month</p>
@@ -230,7 +231,7 @@ export default function page() {
               </Button>
             </Link>
           </div>
-          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-slate-100">
+          <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">INTERMEDIATE</h1>
             <h1 className="text-4xl font-medium text-primary">&#8377; 2,000</h1>
             <p className="text-primary font-medium">For 1 Month</p>
@@ -258,6 +259,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <TrainersChess />
       <div className="px-4 md:px-8 py-12  bg-primary-foreground">
         <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
           Reviews

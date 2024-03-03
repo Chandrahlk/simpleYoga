@@ -13,12 +13,12 @@ export default function Contact() {
         Contact Us
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 md:w-5/6 gap-x-8 gap-y-0 md:mx-auto justify-items-center justify-center items-center text-center">
-        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-primary-foreground">
           <FaPhoneVolume className="h-10 w-10" />
           <h1 className="text-lg font-medium">Phone</h1>
           <p className=" text-muted-foreground">+91 9491785809</p>
         </div>
-        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-primary-foreground">
           <SiGmail className="h-10 w-10" />
           <h1 className="text-lg font-medium">Mail</h1>
           <Link
@@ -28,7 +28,7 @@ export default function Contact() {
             aadhyanthaacademy@gmail.com
           </Link>
         </div>
-        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+        <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-primary-foreground">
           <FaSquareWhatsapp className="h-10 w-10" />
           <h1 className="text-lg font-medium">Whatsapp</h1>
           <Link href="https://wa.me/9491785809" className=" text-primary">
@@ -36,7 +36,7 @@ export default function Contact() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col md:w-1/2 mx-auto justify-center items-center border rounded-md shadow-md p-4 space-y-3 hover:bg-slate-100">
+      <div className="flex flex-col md:w-1/2 mx-auto justify-center items-center border rounded-md shadow-md p-4 space-y-3 hover:bg-primary-foreground">
         <FaMapLocationDot className="h-10 w-10" />
         <h1 className="text-lg font-medium">Location</h1>
         <Link

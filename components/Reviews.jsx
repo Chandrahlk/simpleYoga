@@ -5,7 +5,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 export default function Reviews({ name, place, content }) {
   return (
-    <Alert>
+    <Alert className="hover:bg-primary-foreground">
       <RocketIcon className="h-4 w-4" />
       <AlertTitle className="text-primary">
         {name} - {place}

@@ -12,21 +12,24 @@ const Nav = () => {
     { name: "Contact Us", link: "/contact" },
   ];
   return (
-    <nav className="sticky top-0 z-50 border-b-2 bg-white flex justify-between items-center p-4 md:px-8">
-      <div className="flex items-center hover:text-primary font-bold gap-2 text-2xl cursor-pointer">
+    <nav className="sticky top-0 z-50 border-b-2 bg-primary text-white flex justify-between items-center p-4 md:px-8">
+      <div className="flex items-center hover:text-white/90 font-bold gap-2 text-2xl cursor-pointer">
         <Image src="/logo.png" width={30} height={30} />
         <Link href="/">Aadhyantha Academy</Link>
       </div>
       {/* mobile */}
       <div className="cursor-pointer md:hidden">
         <Sheet>
-          <SheetTrigger className="flex hover:text-primary">
+          <SheetTrigger className="flex hover:text-white">
             <FaBars size={24} />
           </SheetTrigger>
-          <SheetContent className="w-64 border rounded bg-primary-foreground">
+          <SheetContent className="w-64 border rounded bg-primary">
             <ul className="space-y-12 text-center py-8">
               {links.map((link) => (
-                <li className=" font-medium hover:text-primary" key={link.name}>
+                <li
+                  className="font-medium text-white hover:text-white/90"
+                  key={link.name}
+                >
                   <Link href={link.link}>{link.name}</Link>
                 </li>
               ))}
@@ -39,7 +42,10 @@ const Nav = () => {
         <ul className="flex justify-between items-center gap-8">
           {links.map((link) => (
             <li key={link.name}>
-              <Link className="font-medium hover:text-primary" href={link.link}>
+              <Link
+                className="font-medium text-white hover:text-white/90"
+                href={link.link}
+              >
                 {link.name}
               </Link>
             </li>

@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import Pricing from "@/components/Pricing";
 import Reviews from "@/components/Reviews";
+import Trainers from "@/components/Trainers";
 
 const imageGallery = [
   "/yoga/13.jpeg",
@@ -280,7 +281,8 @@ export default function page() {
         </div>
       </div>
       <Pricing />
-      <div className="px-4 md:px-8 py-12  bg-primary-foreground">
+      <Trainers />
+      <div className="px-4 md:px-8 py-12">
         <h1 className="text-3xl md:text-4xl font-medium text-center pb-12">
           Reviews
         </h1>

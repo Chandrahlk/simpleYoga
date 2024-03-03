@@ -31,8 +31,8 @@ export default function Trainers() {
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-lg shadow-md p-4 space-y-3 hover:bg-slate-100">
           <Image
             className="rounded-md"
-            src="/hero-logo.webp"
-            width={200}
+            src="/trainer3.jpeg"
+            width={150}
             height={150}
           />
           <h1 className="text-lg font-medium">Mary Shobha</h1>
@@ -41,8 +41,8 @@ export default function Trainers() {
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-lg shadow-md p-4 space-y-3 hover:bg-slate-100">
           <Image
             className="rounded-md"
-            src="/male-trainer.webp"
-            width={200}
+            src="/trainer4.jpeg"
+            width={150}
             height={150}
           />
           <h1 className="text-lg font-medium">Karthik</h1>

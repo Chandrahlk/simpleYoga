@@ -22,7 +22,7 @@ const imageGallery = [
 
 export default function Hero() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center px-4 md:px-8 py-12">
+    <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center px-4 md:px-8 py-16">
       <div className="flex flex-col justify-center items-center md:items-start gap-4 text-center md:text-left py-8 md:py-0">
         <h1 className="text-3xl md:text-5xl font-medium">Aadhyantha Academy</h1>
         <h4 className="text-lg md:text-xl text-muted-foreground">
