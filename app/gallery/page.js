@@ -40,11 +40,20 @@ const imageGallery = [
   "/chess/15.jpeg",
   "/chess/16.jpeg",
   "/chess/17.jpeg",
+  "/yoga/53.jpeg",
+  "/yoga/54.jpeg",
+  "/yoga/55.jpeg",
+  "/yoga/56.jpeg",
   "/yoga/43.jpeg",
   "/yoga/48.jpeg",
   "/yoga/49.jpeg",
   "/yoga/50.jpeg",
   "/yoga/51.jpeg",
+  "/yoga/57.jpeg",
+  "/yoga/58.jpeg",
+  "/yoga/59.jpeg",
+  "/yoga/60.jpeg",
+  "/yoga/61.jpeg",
 ];
 
 export default function page() {
