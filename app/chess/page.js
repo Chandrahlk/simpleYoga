@@ -24,6 +24,10 @@ const imageGallery = [
   "/chess/11.jpeg",
   "/chess/12.jpeg",
   "/chess/13.jpeg",
+  "/chess/14.jpeg",
+  "/chess/15.jpeg",
+  "/chess/16.jpeg",
+  "/chess/17.jpeg",
 ];
 
 const reviews = [
@@ -120,9 +124,25 @@ export default function page() {
               </div>
             </div>
             <div className="flex flex-col gap-2">
-              <h4 className="font-medium">Weekly Twice (Wednesday & Friday)</h4>
-              <div className="flex gap-4 justify-center md:justify-start">
-                <Button size="sm">6:30PM to 8PM</Button>
+              <h4 className="font-medium">Weekly Twice (Monday - Friday)</h4>
+              <div className="flex flex-col gap-4 items-center md:items-start">
+                <Button size="sm" className="w-fit">
+                  6:30PM to 7:30PM - for Beginners{" "}
+                </Button>
+                <Button size="sm" className="w-fit">
+                  7PM to 8PM - for Strong Begineers & Intermediate{" "}
+                </Button>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="font-medium">Weekends (Saturday)</h4>
+              <div className="flex flex-col gap-4 items-center md:items-start">
+                <Button size="sm" className="w-fit">
+                  6PM to 7PM - for Beginners{" "}
+                </Button>
+                <Button size="sm" className="w-fit">
+                  6:30PM to 7:30PM - for Strong Begineers & Intermediate{" "}
+                </Button>
               </div>
             </div>
             <div className="flex flex-col gap-2">
@@ -181,16 +201,18 @@ export default function page() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
           <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">ULTRA BEGINNER</h1>
-            <h1 className="text-4xl font-medium text-primary">&#8377; 1,500</h1>
-            <p className="text-primary font-medium">For 1 Month</p>
+            <h1 className="text-4xl font-medium text-primary">
+              &#8377; 800<span className="text-xs">/month</span>
+            </h1>
+            <p className="text-primary font-medium">For Weekly 1 Class</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;4,300
+              For Weekly 2 Class &#8377;1,500
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;8,400
+              For Weekly 3 Class &#8377;2,200
             </p>
             <p className="text-primary font-medium">
-              For 12 months &#8377;16,000
+              For Weekly 4 Class &#8377;2,800
             </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
@@ -207,16 +229,18 @@ export default function page() {
           </div>
           <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">STRONG BEGINNER</h1>
-            <h1 className="text-4xl font-medium text-primary">&#8377; 1,800</h1>
-            <p className="text-primary font-medium">For 1 Month</p>
+            <h1 className="text-4xl font-medium text-primary">
+              &#8377; 1,200<span className="text-xs">/month</span>
+            </h1>
+            <p className="text-primary font-medium">For Weekly 1 Class</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;5,200
+              For Weekly 2 Class &#8377;2,000
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;10,000
+              For Weekly 3 Class &#8377;2,800
             </p>
             <p className="text-primary font-medium">
-              For 12 months &#8377;19,000
+              For Weekly 4 Class &#8377;3,600
             </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>
@@ -233,16 +257,18 @@ export default function page() {
           </div>
           <div className="flex flex-col w-full justify-center items-center border rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
             <h1 className="text-lg font-medium">INTERMEDIATE</h1>
-            <h1 className="text-4xl font-medium text-primary">&#8377; 2,000</h1>
-            <p className="text-primary font-medium">For 1 Month</p>
+            <h1 className="text-4xl font-medium text-primary">
+              &#8377; 1,500<span className="text-xs">/month</span>
+            </h1>
+            <p className="text-primary font-medium">For Weekly 1 Class</p>
             <p className="text-primary font-medium">
-              For 3 months &#8377;5,700
+              For Weekly 2 Class &#8377;2,400
             </p>
             <p className="text-primary font-medium">
-              For 6 months &#8377;11,000
+              For Weekly 3 Class &#8377;3,000
             </p>
             <p className="text-primary font-medium">
-              For 12 months &#8377;21,000
+              For Weekly 4 Class &#8377;4,200
             </p>
             <p className="text-lg font-medium">Admission Fee &#8377; 1,500</p>
             <p className=" text-muted-foreground">Free Chess Kit</p>

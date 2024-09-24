@@ -9,7 +9,7 @@ const Nav = () => {
     { name: "Chess", link: "/chess" },
     { name: "Gallery", link: "/gallery" },
     { name: "Products", link: "/products" },
-    { name: "Contact Us", link: "/contact" },
+    { name: "Contact", link: "/contact" },
   ];
   return (
     <nav className="sticky top-0 z-50 border-b-2 bg-primary text-white flex justify-between items-center p-4 md:px-8">

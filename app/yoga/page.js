@@ -143,6 +143,7 @@ export default function page() {
                 Weekdays Timings (Monday - Friday)
               </h4>
               <div className="flex gap-4 justify-center md:justify-start">
+                <Button size="sm">5AM to 6AM</Button>
                 <Button size="sm">6AM to 7AM</Button>
                 <Button size="sm">7AM to 8AM</Button>
                 <Button size="sm">5PM to 6PM</Button>
@@ -153,6 +154,7 @@ export default function page() {
                 Weekends Timings (Saturday & Sunday)
               </h4>
               <div className="flex gap-4 justify-center md:justify-start">
+                <Button size="sm">5AM to 6AM</Button>
                 <Button size="sm">6AM to 7AM</Button>
                 <Button size="sm">7AM to 8:30AM</Button>
               </div>
@@ -219,7 +221,7 @@ export default function page() {
                   Yoga Nidra
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Mudras
+                  Kriyas
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Pregnancy Yoga
@@ -239,7 +241,7 @@ export default function page() {
                   Nadi pariksha
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Marma Healing
+                  Marma Chikista
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Pranic Healing
@@ -248,7 +250,7 @@ export default function page() {
                   Ayurveda Fundamentals
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Water & Breath Healing
+                  Water & Breath Therapy
                 </h1>
               </div>
             </div>
@@ -264,10 +266,10 @@ export default function page() {
                   Marma healing
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Yoga Volunteer
+                  Yoga Foundation
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
-                  Partner Yoga
+                  Intuition/Sixth Sense Yoga
                 </h1>
                 <h1 className="text-sm text-center border rounded-lg shadow-md p-4 hover:bg-primary hover:text-white">
                   Advance Yoga Asanas
@@ -278,6 +280,63 @@ export default function page() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-12 bg-primary-foreground">
+        <div className="flex justify-center w-full">
+          <Image
+            className="border rounded-md shadow-md"
+            src="/yoga/13.jpeg"
+            width={500}
+            height={250}
+          />
+        </div>
+        <div className="w-full flex flex-col justify-center items-center md:items-start space-y-2 text-center md:text-left mt-8 md:mt-0">
+          <h1 className="text-3xl md:text-4xl font-medium pb-2">
+            About Intuition Yoga
+          </h1>
+          <h4 className="text-muted-foreground">
+            Unlock your child's hidden potential with Intuition Yoga, also known
+            as Divya Drishti Yoga or Sixth Sense Training, at Aadhyantha Yoga
+            Studio. This groundbreaking practice empowers children to perform
+            incredible feats such as reading, writing, walking, riding, and
+            playing—all while blindfolded. By enhancing their intuitive
+            abilities, children learn to navigate their surroundings with
+            remarkable confidence and insight.
+          </h4>
+          <h4 className="font-medium text-lg">Key Benefits:</h4>
+          <li className="text-muted-foreground">
+            Boosts Confidence: Cultivates self-assurance and courage in daily
+            activities.
+          </li>
+          <li className="text-muted-foreground">
+            Promotes Self-Love: Encourages a positive self-image and emotional
+            well-being.
+          </li>
+          <li className="text-muted-foreground">
+            Enhances Concentration and Focus: Sharpens attention span and mental
+            clarity.
+          </li>
+          <li className="text-muted-foreground">
+            Strengthens Memory Power: Improves the ability to retain and recall
+            information.
+          </li>
+          <li className="text-muted-foreground">
+            Connects with Consciousness: Fosters a deeper connection with one’s
+            inner self and the universe.
+          </li>
+          <li className="text-muted-foreground">
+            Empowers Decision-Making: Enhances the ability to make sound
+            decisions intuitively.
+          </li>
+          <li className="text-muted-foreground">
+            Increases Emotional Intelligence: Helps children understand and
+            manage their emotions better.
+          </li>
+          <li className="text-muted-foreground">
+            Encourages Creativity: Stimulates imaginative thinking and creative
+            expression.
+          </li>
         </div>
       </div>
       <Pricing />

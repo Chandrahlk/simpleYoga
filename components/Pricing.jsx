@@ -68,11 +68,11 @@ export default function Membership() {
         <div className="flex flex-col w-full justify-center items-center border  rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
           <h1 className="text-lg font-medium">YOGA SESSION</h1>
           <h1 className="text-4xl font-medium text-primary">
-            &#8377; 1,000<span className="text-xs">/ Session</span>
+            &#8377; 1,500<span className="text-xs">/ Session</span>
           </h1>
           <p className="text-primary font-medium">For Personal Classes</p>
-          <p className="text-lg font-medium">&#8377; 1,500 Actual Cost</p>
-          <p className=" text-muted-foreground">&#8377; 500 Discount</p>
+          <p className="text-lg font-medium">&#8377; 1,800 Actual Cost</p>
+          <p className=" text-muted-foreground">&#8377; 300 Discount</p>
           <p className=" text-muted-foreground"> Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
           <Link className="w-full" href="/contact">
@@ -84,23 +84,7 @@ export default function Membership() {
         <div className="flex flex-col w-full justify-center items-center border  rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
           <h1 className="text-lg font-medium">PRANIC HEALING</h1>
           <h1 className="text-4xl font-medium text-primary">
-            &#8377; 600<span className="text-xs">/ Session</span>
-          </h1>
-          <p className="text-primary font-medium">For Personal Classes</p>
-          <p className="text-lg font-medium">&#8377; 1,000 Actual Cost</p>
-          <p className=" text-muted-foreground">&#8377; 400 Discount</p>
-          <p className=" text-muted-foreground">Access to all classes</p>
-          <p className=" text-muted-foreground">Offline/Online classes</p>
-          <Link className="w-full" href="/contact">
-            <Button className="w-full" size="lg">
-              Contact Us
-            </Button>
-          </Link>
-        </div>
-        <div className="flex flex-col w-full justify-center items-center border  rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
-          <h1 className="text-lg font-medium">MARMA CHIKISTA</h1>
-          <h1 className="text-4xl font-medium text-primary">
-            &#8377; 1,000<span className="text-xs">/ Session</span>
+            &#8377; 1000<span className="text-xs">/ Session</span>
           </h1>
           <p className="text-primary font-medium">For Personal Classes</p>
           <p className="text-lg font-medium">&#8377; 1,500 Actual Cost</p>
@@ -114,13 +98,29 @@ export default function Membership() {
           </Link>
         </div>
         <div className="flex flex-col w-full justify-center items-center border  rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
-          <h1 className="text-lg font-medium">PRANIC + MARMA</h1>
+          <h1 className="text-lg font-medium">MARMA CHIKISTA</h1>
           <h1 className="text-4xl font-medium text-primary">
             &#8377; 1,500<span className="text-xs">/ Session</span>
           </h1>
           <p className="text-primary font-medium">For Personal Classes</p>
           <p className="text-lg font-medium">&#8377; 2,000 Actual Cost</p>
           <p className=" text-muted-foreground">&#8377; 500 Discount</p>
+          <p className=" text-muted-foreground">Access to all classes</p>
+          <p className=" text-muted-foreground">Offline/Online classes</p>
+          <Link className="w-full" href="/contact">
+            <Button className="w-full" size="lg">
+              Contact Us
+            </Button>
+          </Link>
+        </div>
+        <div className="flex flex-col w-full justify-center items-center border  rounded-md shadow-md p-4 space-y-4 hover:bg-primary-foreground">
+          <h1 className="text-lg font-medium">YOGA + MARMA</h1>
+          <h1 className="text-4xl font-medium text-primary">
+            &#8377; 2,000<span className="text-xs">/ Session</span>
+          </h1>
+          <p className="text-primary font-medium">For Personal Classes</p>
+          <p className="text-lg font-medium">&#8377; 3,000 Actual Cost</p>
+          <p className=" text-muted-foreground">&#8377; 1,000 Discount</p>
           <p className=" text-muted-foreground">Access to all classes</p>
           <p className=" text-muted-foreground">Offline/Online classes</p>
           <Link className="w-full" href="/contact">

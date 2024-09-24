@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { FaChess } from "react-icons/fa6";
-import { FaClipboardList } from "react-icons/fa";
 import { TbReportMoney } from "react-icons/tb";
 import { GrYoga } from "react-icons/gr";
 import Link from "next/link";
@@ -53,15 +52,15 @@ export default function Services() {
         </div>
         <div className="flex flex-col w-full justify-center items-center border m-4 rounded-md shadow-md p-4 space-y-3 hover:bg-primary-foreground">
           <TbReportMoney className="h-10 w-10" />
-          <h1 className="text-lg font-medium">Finance Services</h1>
+          <h1 className="text-lg font-medium">Others</h1>
           <p className=" text-muted-foreground">
-            Empower your financial future with our services: insurance, mutual
-            funds, stocks, life, vehicle and health coverage. Tailored solutions
-            for you.
+            We also offer other services like Vedic Mathematics classes, Rubik's
+            Cube classes and Science and Mathematics Tutorial for High School
+            and PU College.
           </p>
-          <Link className="w-full" href="#">
+          <Link className="w-full" href="/others">
             <Button className="w-full" size="lg">
-              Coming Soon
+              Know More
             </Button>
           </Link>
         </div>

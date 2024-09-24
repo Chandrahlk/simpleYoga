@@ -20,8 +20,8 @@ export default function page() {
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
-          <Image src="/yoga-bricks.webp" width="150" height="300" />
-          <h2 className="font-medium">Yoga Bricks</h2>
+          <Image src="/woodenBricks.webp" width="150" height="300" />
+          <h2 className="font-medium">Wooden Bricks</h2>
           <Button>
             <Link target="_blank" href="https://wa.me/9491785809">
               Order on Whatsapp
@@ -29,8 +29,8 @@ export default function page() {
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
-          <Image src="/yoga-belts.webp" width="150" height="300" />
-          <h2 className="font-medium">Yoga D Ring Belt</h2>
+          <Image src="/yogaBelts.webp" width="150" height="300" />
+          <h2 className="font-medium">Yoga Belt</h2>
           <Button>
             <Link target="_blank" href="https://wa.me/9491785809">
               Order on Whatsapp
@@ -40,11 +40,11 @@ export default function page() {
         <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
           <Image
             className="rotate-0"
-            src="/yoga-blocks.webp"
+            src="/yogaRopes.webp"
             width="150"
             height="300"
           />
-          <h2 className="font-medium">Yoga Blocks</h2>
+          <h2 className="font-medium">Yoga Ropes</h2>
           <Button>
             <Link target="_blank" href="https://wa.me/9491785809">
               Order on Whatsapp
@@ -52,8 +52,8 @@ export default function page() {
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
-          <Image src="/chess-board.webp" width="300" height="300" />
-          <h2 className="font-medium">ChessBoard</h2>
+          <Image src="/pChessBoard.webp" width="300" height="300" />
+          <h2 className="font-medium">Professional ChessBoard</h2>
           <Button>
             <Link target="_blank" href="https://wa.me/9491785809">
               Order on Whatsapp
@@ -61,8 +61,53 @@ export default function page() {
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
-          <Image src="/chess-clock.webp" width="250" height="300" />
-          <h2 className="font-medium">Digital Chess Clock</h2>
+          <Image src="/chessClock.webp" width="250" height="300" />
+          <h2 className="font-medium">Chess Clock</h2>
+          <Button>
+            <Link target="_blank" href="https://wa.me/9491785809">
+              Order on Whatsapp
+            </Link>
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
+          <Image src="/taratakaStand.webp" width="250" height="300" />
+          <h2 className="font-medium">Tarataka Stand</h2>
+          <Button>
+            <Link target="_blank" href="https://wa.me/9491785809">
+              Order on Whatsapp
+            </Link>
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
+          <Image src="/sutraNeti.webp" width="250" height="300" />
+          <h2 className="font-medium">Sutra Neti</h2>
+          <Button>
+            <Link target="_blank" href="https://wa.me/9491785809">
+              Order on Whatsapp
+            </Link>
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
+          <Image src="/jalaNeetiPot.webp" width="250" height="300" />
+          <h2 className="font-medium">Jala Neeti Pot</h2>
+          <Button>
+            <Link target="_blank" href="https://wa.me/9491785809">
+              Order on Whatsapp
+            </Link>
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
+          <Image src="/eyeWashingCups.webp" width="250" height="300" />
+          <h2 className="font-medium">Eye Washing Cups</h2>
+          <Button>
+            <Link target="_blank" href="https://wa.me/9491785809">
+              Order on Whatsapp
+            </Link>
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center align-middle gap-4 bg-primary-foreground border rounded-lg shadow p-4">
+          <Image src="/agniHotraKit.webp" width="250" height="300" />
+          <h2 className="font-medium">Agni Hotra Kit</h2>
           <Button>
             <Link target="_blank" href="https://wa.me/9491785809">
               Order on Whatsapp
