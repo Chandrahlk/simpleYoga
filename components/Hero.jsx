@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/carousel";
 
 const imageGallery = [
+  "/yoga/48a.jpeg",
+  "/yoga/49a.jpeg",
   "/yoga/32.jpeg",
   "/yoga/31.jpeg",
   "/yoga/30.jpeg",

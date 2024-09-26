@@ -7,7 +7,7 @@ export default function Founder() {
       <div className="flex justify-center w-full">
         <Image
           className="rounded-md"
-          src="/yoga/founder.jpeg"
+          src="/yoga/48a.jpeg"
           width={500}
           height={250}
         />

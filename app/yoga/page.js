@@ -286,7 +286,7 @@ export default function page() {
         <div className="flex justify-center w-full">
           <Image
             className="border rounded-md shadow-md"
-            src="/yoga/13.jpeg"
+            src="/yoga/63.jpeg"
             width={500}
             height={250}
           />
